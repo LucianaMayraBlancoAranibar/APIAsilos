@@ -1,25 +1,25 @@
-@api = http://localhost:3000/campanas
+# //@api = http://localhost:3000/campanas
 
 
-GET {{api}}
+# GET {{api}}
 
-### get product
-{{api}}/3
+# ### get product
+# {{api}}/3
 
 
-### update
-PUT {{api}}/3
-Content-Type: application/json
+# ### update
+# PUT {{api}}/3
+# Content-Type: application/json
 
-{
-  "nombre": "ayuda",
-  "requerimiento": "muchos",
-  "fechaInicio": "2023-09-09T00:00:00.000Z",
-  "fechaCierre": "2024-09-09T00:00:00.000Z",
-  "tipoCampaña": "asilo",
-  "establecimientoID": 6,
-  "estado": 1,
-  "fechaRegistro": "2023-06-07T00:27:42.983Z",
-  "fechaModificacion": null
+# {
+#   "nombre": "ayuda",
+#   "requerimiento": "muchos",
+#   "fechaInicio": "2023-09-09T00:00:00.000Z",
+#   "fechaCierre": "2024-09-09T00:00:00.000Z",
+#   "tipoCampaña": "asilo",
+#   "establecimientoID": 6,
+#   "estado": 1,
+#   "fechaRegistro": "2023-06-07T00:27:42.983Z",
+#   "fechaModificacion": null
 
-}
+# }
